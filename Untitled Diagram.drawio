@@ -19,9 +19,6 @@
         <mxCell id="VAGJtyd0GiOgOA7cMFZf-101" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="180" width="180" x="640" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="VAGJtyd0GiOgOA7cMFZf-112" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ENTITY RELATIONSHIP DIAGRAM FOR RE-MMOGO WED APP" vertex="1">
-          <mxGeometry height="30" width="372" x="18" y="100" as="geometry" />
-        </mxCell>
         <mxCell id="tM_SA23bXvbpn3khfMos-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GUESTHOUSE" vertex="1">
           <mxGeometry height="30" width="60" x="600" y="700" as="geometry" />
         </mxCell>
@@ -189,6 +186,9 @@
         </mxCell>
         <mxCell id="tM_SA23bXvbpn3khfMos-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="M" vertex="1">
           <mxGeometry height="30" width="60" x="780" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="NaATP5UnkSY0CSRivYJV-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ENTITY RELATIONSHIP DIAGRAM FOR GUESTHOUSE PLATFORM" vertex="1">
+          <mxGeometry height="30" width="390" x="70" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
