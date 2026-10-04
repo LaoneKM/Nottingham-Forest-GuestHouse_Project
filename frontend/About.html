@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | StayHaven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <img src="logo.png" alt="StayHaven Logo">
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul id="navLinks" class="nav-links">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html" class="active">ABOUT</a></li>
+            <li><a href="home.html#features">FEATURES</a></li>
+            <li><a href="home.html#contact">CONTACT</a></li>
+            <li><a href="index.html">LOGIN</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- About Content -->
+
+    <section class="about-content">
+
+        <h1>About StayHaven</h1>
+
+        <p>
+            StayHaven is a modern hotel management platform designed to
+            simplify hotel operations and improve guest experiences.
+            The system enables managers and administrators to manage
+            bookings, rooms, customer records and reports efficiently
+            from a centralized platform.
+        </p>
+
+        <p>
+            Whether operating a small guesthouse or a luxury hotel,
+            StayHaven provides reliable tools that help improve
+            productivity, efficiency and customer satisfaction.
+        </p>
+
+        <h2>Why Choose Us?</h2>
+
+        <div class="features">
+
+            <div class="card">
+                <h3>Secure System</h3>
+                <p>Protects hotel and guest information.</p>
+            </div>
+
+            <div class="card">
+                <h3>Fast Operations</h3>
+                <p>Manage bookings and rooms instantly.</p>
+            </div>
+
+            <div class="card">
+                <h3>Reliable Reports</h3>
+                <p>Generate accurate operational reports.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>

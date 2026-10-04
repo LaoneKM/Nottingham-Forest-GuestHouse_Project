@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayHaven Features</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <img src="logo.png" alt="StayHaven Logo">
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul id="navLinks" class="nav-links">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="features.html" class="active">FEATURES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="index.html">LOGIN</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Features Content -->
+
+    <section class="features-content">
+
+        <h1>StayHaven Features</h1>
+
+        <div class="features">
+
+            <div class="card">
+                <h3>Room Management</h3>
+                <p>
+                    Manage room availability, room status,
+                    room assignments, and maintenance records.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Booking Management</h3>
+                <p>
+                    Create, modify, and track reservations
+                    efficiently from one central platform.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Guest Management</h3>
+                <p>
+                    Store guest information securely and
+                    maintain detailed booking histories.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>Payment Processing</h3>
+                <p>
+                    Record payments, track transactions,
+                    and generate invoices automatically.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Reports & Analytics</h3>
+                <p>
+                    Generate occupancy, revenue,
+                    booking and performance reports.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>Customer Feedback</h3>
+                <p>
+                    Collect reviews, ratings and feedback
+                    to improve guest satisfaction.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+    <!-- Responsive Menu Script -->
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>

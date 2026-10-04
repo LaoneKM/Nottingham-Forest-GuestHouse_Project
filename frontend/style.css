@@ -1,0 +1,874 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-container{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    box-shadow:0 1px 4px rgba(0,0,0,.08);
+}
+
+.logo-box{
+    width:40px;
+    height:40px;
+    border:1px dashed #bbb;
+    margin:0 auto 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#888;
+}
+
+h1{
+    text-align:center;
+    color:#2f3a4a;
+    margin-bottom:6px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#7b7b7b;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:7px;
+    font-weight:bold;
+    color:#444;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #d6d6d6;
+    border-radius:5px;
+    font-size:14px;
+}
+
+.forgot-password{
+    text-align:right;
+    margin-top:10px;
+}
+
+.forgot-password a{
+    color:#667085;
+    font-size:14px;
+}
+
+button{
+    width:100%;
+    padding:13px;
+    margin-top:25px;
+    border:none;
+    border-radius:5px;
+    background:#394457;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d3748;
+}
+
+.signup-text{
+    text-align:center;
+    margin-top:25px;
+    color:#666;
+}
+
+.signup-text a{
+    font-weight:bold;
+    color:#2f3a4a;
+}
+body{
+    background:gray;
+}
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.logo img{
+    width:80px;
+    height:auto;
+}
+
+/* sign up page */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#f5f5f7;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:420px;
+    background:#ffffff;
+    padding:40px 35px;
+    border:1px solid #d7d7d7;
+    border-radius:8px;
+}
+
+h1{
+    text-align:center;
+    color:#2d3748;
+    font-size:20px;
+    margin-bottom:8px;
+    font-weight:700;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:14px;
+    margin-bottom:6px;
+    font-size:14px;
+    font-weight:600;
+    color:#374151;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #d1d5db;
+    border-radius:5px;
+    font-size:14px;
+    outline:none;
+}
+
+input:focus{
+    border-color:#4b5563;
+}
+
+button{
+    width:100%;
+    margin-top:22px;
+    padding:13px;
+    border:none;
+    border-radius:5px;
+    background:#374151;
+    color:white;
+    font-weight:600;
+    font-size:14px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2d3748;
+}
+
+.login-link{
+    text-align:center;
+    margin-top:22px;
+    color:#6b7280;
+    font-size:14px;
+}
+
+.login-link a{
+    color:#374151;
+    font-weight:600;
+    text-decoration:underline;
+}
+
+/*home page styles*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width:100%;
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("banner.png");
+
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* NAVBAR */
+
+.navbar{
+    width:100px;
+    margin:auto;
+    height:180px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    width:200px;
+    margin-top:30px;
+    margin-left:5px;
+    margin-right:10px;
+}
+
+/* MENU */
+
+.menu ul{
+    display:flex;
+    list-style:none;
+}
+
+.menu ul li{
+    margin-left:30px;
+}
+
+.menu ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu ul li a:hover{
+    color:#c0c0c0;
+}
+
+
+
+
+
+/* CONTENT */
+
+.content{
+    width:1200px;
+    max-width:95%;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding-top:100px;
+}
+
+/* TEXT CONTENT */
+
+.text-content{
+    width:650px;
+    color:white;
+    padding-top:95px;
+}
+
+.text-content h1{
+    font-size:70px;
+    line-height:1.2;
+    color:white;
+}
+
+.text-content h1 span{
+    color:white;
+}
+
+.par{
+    margin-top:20px;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+/*making it suitable for mobile devices*/
+.navbar .fa{
+    display:none;
+}
+
+
+@media (max-width: 700px){
+    .text-content h1{
+        font-size:20px;
+    }
+    .menu ul li{
+        display:block;  
+    }
+    .menu ul{
+        position:absolute;
+        background:gray;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:0;
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top:20px;
+        text-align:left;
+        z-index: 2;
+
+    }
+    .fa{
+        display:block;
+        color:black;
+        margin-top: 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+}
+
+/* SIGN UP BUTTON */
+
+.sign-btn{
+    width:150px;
+    height:50px;
+
+    background:#5d6776;
+
+    border:none;
+
+    border-radius:10px;
+
+    margin-top:20px;
+
+    cursor:pointer;
+}
+
+.sign-btn a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+.login-btn{
+    width:150px;
+    height:50px;
+    border:inline-block;
+    padding:13px 15px;
+    border-radius:10px;
+    margin-top:20px;
+    margin-right:20px;
+    background:#5d6776;
+    cursor:pointer;
+}
+
+.login-btn a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+.form h2{
+    width:150px;
+    margin:0 auto 20px auto;
+}
+
+.link{
+    color:white;
+    text-align:center;
+    margin-top:20px;
+}
+
+.link a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.liw{
+    text-align:center;
+    color:white;
+    margin-top:20px;
+}
+
+
+/*-------- about page-------------- */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url("banner.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    color:white;
+}
+
+/* NAVIGATION */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 40px;
+
+    background:rgba(45,55,72,0.9);
+
+    z-index:1000;
+}
+.nav-logo img{
+    width:180px;
+    height:auto;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+    color:gray;
+}
+
+.menu-icon{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+    color:white;
+}
+
+/* ABOUT SECTION */
+
+.about-content{
+    max-width:1000px;
+    margin:80px auto;
+    text-align:center;
+    padding:20px;
+}
+
+.about-content h1{
+    font-size:60px;
+    color:#ffffff;
+    margin-bottom:25px;
+}
+
+.about-content p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-content h2{
+    margin-top:50px;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+/* CARDS */
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:220px;
+    padding:25px;
+
+    background:rgba(57,68,87,0.85);
+
+    border-radius:10px;
+
+    backdrop-filter:blur(5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#ffffff;
+}
+
+.card p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    background:rgba(70,80,100,0.95);
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .menu-icon{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+
+        position:absolute;
+        top:80px;
+        right:0;
+
+        width:220px;
+
+        flex-direction:column;
+
+        background:#2d3748;
+
+        padding:20px;
+    }
+
+    .nav-links.show{
+        display:flex;
+    }
+
+    .about-content h1{
+        font-size:40px;
+    }
+
+    .about-content p{
+        font-size:16px;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .nav-logo img{
+        width:140px;
+    }
+}
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.75)
+    ),
+    url("banner.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    color:white;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:90px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 40px;
+
+    background:rgba(45,55,72,0.95);
+
+    z-index:1000;
+}
+
+.nav-logo img{
+    width:180px;
+    height:auto;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:gray;
+}
+
+.active{
+    color:#d4af37;
+}
+
+/* =========================
+   FEATURES PAGE CONTENT
+========================= */
+
+.features-content{
+    max-width:1300px;
+    margin:140px auto 60px auto;
+    text-align:center;
+    padding:20px;
+}
+
+.features-content h1{
+    font-size:72px;
+    margin-bottom:25px;
+}
+
+.features-content p{
+    font-size:22px;
+    line-height:1.8;
+    max-width:1000px;
+    margin:0 auto 25px auto;
+}
+
+.features-content h2{
+    font-size:55px;
+    margin-top:50px;
+    margin-bottom:40px;
+}
+
+/* =========================
+   FEATURE CARDS
+========================= */
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.card{
+    width:250px;
+    min-height:220px;
+
+    background:rgba(57,68,87,0.90);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    transition:0.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    background:rgba(70,80,100,0.95);
+}
+
+.card h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.0;
+}
+
+/* =========================
+   HAMBURGER MENU
+========================= */
+
+.menu-icon{
+    display:none;
+    font-size:35px;
+    cursor:pointer;
+    color:white;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media(max-width:992px){
+
+    .features-content h1{
+        font-size:55px;
+    }
+
+    .features-content h2{
+        font-size:42px;
+    }
+
+    .features-content p{
+        font-size:18px;
+    }
+
+    .card{
+        width:200px;
+    }
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        padding:0 20px;
+    }
+
+    .nav-logo img{
+        width:140px;
+    }
+
+    .menu-icon{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+
+        position:absolute;
+        top:90px;
+        right:0;
+
+        width:250px;
+
+        background:#2d3748;
+
+        flex-direction:column;
+
+        padding:25px;
+
+        gap:20px;
+    }
+
+    .nav-links.show{
+        display:flex;
+    }
+
+    .features-content{
+        margin-top:120px;
+    }
+
+    .features-content h1{
+        font-size:40px;
+    }
+
+    .features-content h2{
+        font-size:35px;
+    }
+
+    .features-content p{
+        font-size:16px;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+    }
+
+    .card h3{
+        font-size:24px;
+    }
+
+    .card p{
+        font-size:16px;
+    }
+}
+
+@media(max-width:480px){
+
+    .features-content h1{
+        font-size:32px;
+    }
+
+    .features-content h2{
+        font-size:28px;
+    }
+
+    .nav-logo img{
+        width:120px;
+    }
+}
