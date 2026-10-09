@@ -110,8 +110,6 @@ body{
     width:80px;
     height:auto;
 }
-
-/* sign up page */
 *{
     margin:0;
     padding:0;
@@ -201,8 +199,6 @@ button:hover{
     font-weight:600;
     text-decoration:underline;
 }
-
-/*home page styles*/
 *{
     margin:0;
     padding:0;
@@ -227,8 +223,6 @@ button:hover{
     color: white;
 }
 
-/* NAVBAR */
-
 .navbar{
     width:100px;
     margin:auto;
@@ -245,8 +239,6 @@ button:hover{
     margin-left:5px;
     margin-right:10px;
 }
-
-/* MENU */
 
 .menu ul{
     display:flex;
@@ -268,12 +260,6 @@ button:hover{
     color:#c0c0c0;
 }
 
-
-
-
-
-/* CONTENT */
-
 .content{
     width:1200px;
     max-width:95%;
@@ -286,8 +272,6 @@ button:hover{
 
     padding-top:100px;
 }
-
-/* TEXT CONTENT */
 
 .text-content{
     width:650px;
@@ -311,8 +295,6 @@ button:hover{
     line-height:1.8;
 }
 
-
-/*making it suitable for mobile devices*/
 .navbar .fa{
     display:none;
 }
@@ -349,8 +331,6 @@ button:hover{
     }
     
 }
-
-/* SIGN UP BUTTON */
 
 .sign-btn{
     width:150px;
@@ -414,8 +394,6 @@ button:hover{
     margin-top:20px;
 }
 
-
-/*-------- about page-------------- */
 *{
     margin:0;
     padding:0;
@@ -439,8 +417,6 @@ body{
 
     color:white;
 }
-
-/* NAVIGATION */
 
 .navbar{
     position:fixed;
@@ -490,8 +466,6 @@ body{
     color:white;
 }
 
-/* ABOUT SECTION */
-
 .about-content{
     max-width:1000px;
     margin:80px auto;
@@ -516,8 +490,6 @@ body{
     margin-bottom:30px;
     font-size:40px;
 }
-
-/* CARDS */
 
 .features{
     display:flex;
@@ -551,8 +523,6 @@ body{
     transform:translateY(-8px);
     background:rgba(70,80,100,0.95);
 }
-
-/* RESPONSIVE */
 
 @media(max-width:768px){
 
@@ -597,10 +567,6 @@ body{
     }
 }
 
-/* =========================
-   GLOBAL STYLES
-========================= */
-
 *{
     margin:0;
     padding:0;
@@ -629,10 +595,6 @@ body{
 
     color:white;
 }
-
-/* =========================
-   NAVBAR
-========================= */
 
 .navbar{
     position:fixed;
@@ -684,10 +646,6 @@ body{
     color:#d4af37;
 }
 
-/* =========================
-   FEATURES PAGE CONTENT
-========================= */
-
 .features-content{
     max-width:1300px;
     margin:140px auto 60px auto;
@@ -714,10 +672,6 @@ body{
     margin-bottom:40px;
     color:#ffffff;
 }
-
-/* =========================
-   FEATURE CARDS
-========================= */
 
 .features{
     display:flex;
@@ -760,20 +714,12 @@ body{
     line-height:1.0;
 }
 
-/* =========================
-   HAMBURGER MENU
-========================= */
-
 .menu-icon{
     display:none;
     font-size:35px;
     cursor:pointer;
     color:white;
 }
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
 
 @media(max-width:992px){
 
