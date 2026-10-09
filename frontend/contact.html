@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayHaven Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <img src="logo.png" alt="StayHaven Logo">
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul id="navLinks" class="nav-links">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="features.html">FEATURES</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Contact Section -->
+
+    <section class="contact-page">
+
+        <h1>Contact Us</h1>
+
+        <p class="intro">
+            We are here to help. Contact the StayHaven team
+            for support, enquiries, or assistance.
+        </p>
+
+        <!-- Contact Information -->
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <p>support@stayhaven.com</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📞 Phone</h3>
+                <p>+267 77 903 678</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>📍 Location</h3>
+                <p>Gaborone, Botswana</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>🕒 Working Hours</h3>
+                <p>Mon - Fri<br>08:00 AM - 05:00 PM</p>
+            </div>
+
+        </div>
+
+        <!-- Contact Form -->
+
+        <div class="form-container">
+
+            <h2>Send Us a Message</h2>
+
+            <form>
+
+                <input type="text"
+                       placeholder="Full Name"
+                       required>
+
+                <input type="email"
+                       placeholder="Email Address"
+                       required>
+
+                <input type="text"
+                       placeholder="Subject"
+                       required>
+
+                <textarea rows="6"
+                          placeholder="Your Message"
+                          required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>
