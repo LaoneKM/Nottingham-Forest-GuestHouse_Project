@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayHaven Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <div class="nav-logo">
+            <img src="logo.png" alt="StayHaven Logo">
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <ul id="navLinks" class="nav-links">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="features.html">FEATURES</a></li>
+            <li><a href="services.html" class="active">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Services Section -->
+
+    <section class="services-page">
+
+        <h1>StayHaven Services</h1>
+
+        <div class="services-container">
+
+            <div class="service-card">
+                <h3>Hotel Operations Management</h3>
+
+                <p>
+                    Streamline daily hotel operations and keep every
+                    department running smoothly from one central system.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Reservation Management</h3>
+
+                <p>
+                    Simplify bookings and ensure guests enjoy a seamless
+                    reservation experience.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Guest Information Management</h3>
+
+                <p>
+                    Keep guest records secure, organized, and accessible
+                    whenever you need them.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Financial Tracking</h3>
+
+                <p>
+                    Monitor revenue and transactions with confidence
+                    through accurate financial insights.
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>
