@@ -10,3 +10,5 @@ Group Members
 7.Ndiye Ntusa 24019856
 8.Hlelolwenkosi Mahlalela 24020091
 
+HOW TO RUN STAYHAVEN DATABASE ON YOUR COMPUTER
+clone the repo, switch to the NoSQL branch, open the file in VS Code with the MongoDB extension, connect to mongodb://localhost:27017, and run MongoDB: Run All From Playground.
