@@ -1,14 +1,17 @@
 const express = require("express");
 const Customer = require("../models/Customer");
-const { nextId } = require("../utils/ids");
-const { validateRegistration } = require("../utils/validate")
 const Admin = require("../models/Admin");
 const { hashPassword, verifyPassword } = require("../utils/password");
 const { signToken } = require("../utils/token");
+const { nextId } = require("../utils/ids");
+const { validateRegistration } = require("../utils/validate");
+const { requireAuth, requireRole } = require("../middleware/auth");
+const { loginLimiter, registerLimiter } = require("../middleware/rateLimit");
 
 const router = express.Router();
 
-router.post("/register", async (req, res) => {
+// ---------- REGISTER ----------
+router.post("/register", registerLimiter, async (req, res) => {
   const { errors, name, email, password } = validateRegistration(req.body);
   if (errors.length > 0) {
     return res.status(400).json({ errors });
@@ -44,9 +47,11 @@ router.post("/register", async (req, res) => {
     return res.status(500).json({ error: "Something went wrong. Please try again." });
   }
 });
+
+// ---------- LOGIN ----------
 const DUMMY_HASH = "$2b$12$C6UzMDM.H6dfI/f/IKcEeO5QWqk3RZ1xXKQz6mZ3X0W9bXx4yq8cK";
 
-router.post("/login", async (req, res) => {
+router.post("/login", loginLimiter, async (req, res) => {
   const email = typeof req.body.email === "string" ? req.body.email.trim().toLowerCase() : "";
   const password = typeof req.body.password === "string" ? req.body.password : "";
 
@@ -83,7 +88,8 @@ router.post("/login", async (req, res) => {
     return res.status(500).json({ error: "Something went wrong. Please try again." });
   }
 });
-const { requireAuth, requireRole } = require("../middleware/auth");
+
+// ---------- PROTECTED TEST ROUTES ----------
 router.get("/me", requireAuth, (req, res) => {
   res.json({ id: req.user.id, role: req.user.role });
 });
@@ -91,4 +97,5 @@ router.get("/me", requireAuth, (req, res) => {
 router.get("/admin-only", requireAuth, requireRole("admin"), (req, res) => {
   res.json({ message: "Welcome, admin." });
 });
+
 module.exports = router;
