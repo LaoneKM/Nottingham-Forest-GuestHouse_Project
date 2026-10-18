@@ -41,8 +41,6 @@ db.createCollection("guesthouses", { validator: { $jsonSchema: {
     LOCATION: { bsonType: "object" },
     CONTACT_DETAILS: { bsonType: "string" },
     PRICE_PER_NIGHT: { bsonType: ["double", "int"] },
-    CITY: { bsonType: "string" },
-    COUNTRY: { bsonType: "string" },
     GALLERY: { bsonType: "array", items: { bsonType: "string" } },
     AMENITIES: { bsonType: "array", items: { bsonType: "string" } },
     RATING: { bsonType: ["double", "int"] },
